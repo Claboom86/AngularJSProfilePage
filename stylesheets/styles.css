@@ -19,6 +19,35 @@ body {
     border-top-right-radius: 15px;
 }
 
+.profile-name {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 0px;
+}
+
+.profile-info {
+    position: relative;
+    padding-left: 25px;
+    color: #eee;
+    margin-top: 0px;
+}
+
+.profile-bio {
+    position: relative;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.edit-btn {
+    background-color: #505355;
+    color: white;
+    width: 350px;
+    height: 35px;
+    position: relative;
+    left: 25px;
+    border-radius: 15px;
+}
+
 img {
     height: 120px;
     width: 70px;
@@ -38,9 +67,47 @@ img {
     box-shadow: 0px 0px 10px 0px rgba(204,204,204,1);
 }
 
+.form-header {
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+
+label {
+    display: block;
+    position: relative;
+    top: 25px;
+    left: 25px;
+    margin-bottom: 25px;
+}
+
 input {
     display: block;
     margin: 0 auto;
-    width: 300px;
+    width: 350px;
+    height: 35px;
+    border-radius: 15px;
+    border: solid black 1px;
+    position: relative;
+    top: 25px;
+    margin-bottom: 25px;
+
 }
+
+.update-btn {
+    display: block;
+    position: relative;
+    width: 350px;
+    height: 35px;
+    margin: 0 auto;
+    border: none;
+    background-color: #505355;
+    color: white;
+    border-radius: 15px;
+    bottom: 0px;
+    margin-top: 25px;
+}
+
+
+
 
