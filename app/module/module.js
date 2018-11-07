@@ -9,4 +9,7 @@ angular
             .when("/edit", {
                 template: "<edit></edit>"
             })
-    }])
+            .when("/", {
+                template: "<profile></profile>"
+            })
+    }]);

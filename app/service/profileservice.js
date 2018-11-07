@@ -6,11 +6,13 @@ function ProfileService($location) {
         bio: "I am pretty cool."};
     self.getUserProfile = () => {
         return self.userProfile;
-        $location.path("/edit");
     };
     self.setUserProfile = (person) => {
         self.userProfile = person;
-        
+        $location.path("/profile");
+    };
+    self.loadEdit = () => {
+        $location.path("/edit");
     };
 }
 

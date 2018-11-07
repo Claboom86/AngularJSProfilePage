@@ -6,6 +6,6 @@
         <h2 class="profile-name">{{ $ctrl.profile.name }}</h2>
         <p class="profile-info">{{ $ctrl.profile.info }}</p>
         <p class="profile-bio">{{ $ctrl.profile.bio }}</p>
-        <a href="#!/edit"><span>Edit</span></a>
+        <button ng-click="$ctrl.loadEdit();">Edit</button>
     </section>
 </section>

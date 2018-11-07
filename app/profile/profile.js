@@ -4,6 +4,9 @@ const profile = {
     controller: ["ProfileService", function(ProfileService) {
         const vm = this;
         vm.profile = ProfileService.getUserProfile();
+        vm.loadEdit = () => {
+            ProfileService.loadEdit();
+        };
     }]
 };
 
