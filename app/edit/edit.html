@@ -1,0 +1,12 @@
+<section class="form">
+    <form>
+        <h5 class="form-header">Use the form below to update your profile</h5>
+        <label>Name</label>
+        <input type="text" ng-model="$ctrl.person.name">
+        <label>Contact</label>
+        <input type="text" ng-model="$ctrl.person.info">
+        <label>Bio</label>
+        <input type="text" ng-model="$ctrl.person.bio">
+        <button type="button" ng-click="$ctrl.edit($ctrl.person)">Update</button>
+    </form>
+</section>
